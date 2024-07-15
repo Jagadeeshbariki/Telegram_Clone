@@ -1,0 +1,57 @@
+.ChatWindowContainer{
+    width: 100vw;
+    height: 87vh;
+    background-image: url('../../Assets/chatBG.jpg');
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 10px
+}
+
+.MessageContainer{
+   
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 15px 15px 15px 0px;
+    position: relative;
+    margin: 10px;
+    
+}
+
+p{
+    margin:0px;
+}
+
+
+.leftStyling{
+    justify-content: flex-start;
+    text-align: left;
+    background-color: rgb(248, 244, 244);
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 50%;
+    color: black;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.RightStyling{
+    
+    
+    align-self: flex-end; /* Align to the right */
+    text-align: right;
+    background-color: white;
+    color: black;
+    border-radius: 20px 20px 0 20px;
+    padding: 10px;
+    margin: 10px 0; 
+}
+
+.darkRight{
+    align-self: flex-end; /* Align to the right */
+    text-align: right;
+    background-color: rgb(33, 31, 31);
+    color: rgb(255, 248, 248);
+    border-radius: 20px 20px 0 20px;
+    padding: 10px;
+    margin: 10px 0; 
+}

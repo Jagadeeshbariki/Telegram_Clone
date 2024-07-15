@@ -1,0 +1,16 @@
+.Head{
+    text-align: center;
+    background-color: lightgreen;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.darkmode{
+    background-color: black;
+}
+
+.Head p{
+    margin: 0px;
+    padding: 15px;
+}

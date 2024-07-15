@@ -1,0 +1,71 @@
+.sideBarContainer{
+    background-color: rgb(235, 239, 240);
+    width: 400px;
+}
+
+
+.sidebarHeading{
+    height: 50px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sidebarHeading input{
+    border: none;
+    padding: 1px;
+    background-color: rgba(255, 249, 249, 0.546);
+    width: 350px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.MoreOptions{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.optionItem{
+   background-color: rgb(63, 60, 60);
+   width: 20px;
+   height: 2px;
+   margin-bottom: 2px;
+   border-radius: 10px;
+}
+
+.profileIcon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(116, 210, 116);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 10px;
+}
+
+.chatsContainer{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+
+}
+.chatsContainer:hover{
+    background-color: rgba(147, 151, 152, 0.202);
+}
+
+.btnsContianer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnsContianer p{
+    margin: 20px;
+    background-color: rgba(132, 132, 123, 0.733);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

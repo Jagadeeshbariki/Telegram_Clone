@@ -1,0 +1,71 @@
+.MsgInpContainer{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 10px;
+    width: 90%;
+    height: 50px;
+    background-image: url('../../Assets/chatBG.jpg');
+}
+
+.InputContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    padding: 5px;
+}
+.MsgInpContainer input{
+    
+    height: 30px;
+    width: 500px;
+    /* border-radius: 0px 20px 20px 0px; */
+    border:none;
+    padding: 5px;
+    outline: none;
+}
+
+.MsgInpContainer input:focus{
+    border: none;
+}
+
+.MsgInpContainer button{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+.MsgInpContainer button:hover{
+    color: white;
+    box-shadow: 2px 2px 4px rgb(244, 241, 241), -2px -2px 4px rgb(244, 241, 241);
+    transition: 500ms;
+}
+
+.Emoji{
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.AttachPin{
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+
+}
+
+.AttachPin img{
+    height: 27px;
+    padding: 5px;
+}
+
+.EmojiPicker{
+    position: absolute;
+    bottom: 50px;
+    left: 45px;
+}

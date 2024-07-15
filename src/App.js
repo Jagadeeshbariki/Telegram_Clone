@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Header from './Components/Header/Header';
+import SideBar from './Components/SideBar/SideBar';
+import ChatWindow from './Components/ChatWindow/ChatWindow';
+import styles from './App.module.css';
+import { useSelector } from 'react-redux';
 function App() {
+  const isDarkMode = useSelector(state=>state.AppReducer.isDarkMode)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`${styles.App} ${isDarkMode ? styles.darkMode : ''}`}>
+      <Header/>
+      <div className={styles.MainContainer}>
+        <SideBar/>
+        <ChatWindow/>
+      </div>
     </div>
   );
 }

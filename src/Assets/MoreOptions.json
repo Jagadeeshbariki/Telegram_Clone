@@ -1,0 +1,44 @@
+[
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/5662/5662990.png",
+        "Name":"Saved Messages",
+        "alternate":"Icon"
+    },
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/1250/1250592.png",
+        "Name":"Contacts",
+        "alternate":"Icon"
+    },
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/8898/8898994.png",
+        "Name":"My Stories",
+        "alternate":"Icon"
+    },
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/3524/3524636.png",
+        "Name":"Settings",
+        "alternate":"Icon"
+    },
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/3601/3601689.png",
+        "Name":"Night Mode",
+        "alternate":"Icon",
+        "button":"<button>Night</button>"
+    },
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/2859/2859733.png",
+        "Name":"Telegram Features",
+        "alternate":"Icon"
+    },
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/784/784599.png",
+        "Name":"Report A Bug",
+        "alternate":"Icon"
+    },
+    {
+        "icon":"https://cdn-icons-png.flaticon.com/128/3564/3564077.png",
+        "Name":"Siwtch to K Version",
+        "alternate":"Icon"
+    }
+]
+
